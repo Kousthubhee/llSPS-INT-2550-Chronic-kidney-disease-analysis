@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html >
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image:url('https://www.phc.ox.ac.uk/images/news/kidney-age-not-kidney-disease/responsive_image?ratio=image&scale=w1140.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+font-size: 1.25rem;
+  font-family: sans-serif;
+  line-height: 150%;
+  text-shadow: 0 2px 2px #b6701e;
+}
+section {
+  text-align: center;
+}
+
+div {
+  height: 100%;
+}
+
+article {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 20px;
+}
+.container {
+  display: table;
+  width: 100%;
+}
+
+.left-half {
+  position: absolute;
+  left: 0px;
+  width: 50%;
+}
+
+button {
+     color: black!important;
+     text-transform: uppercase;
+     text-decoration: none;
+     background: #ffcccc;
+     padding: 10px;
+width: 40%;
+     border: 4px solid#800000 !important;
+     display: inline-block;
+     transition: all 0.4s ease 0s;
+     } 
+button:hover {
+     color:black !important;
+     background:white;
+     border-color:#990000 !important;
+     transition: all 0.4s ease 0s;
+     }
+</style>     
+</head>
+
+<body>
+
+<section class="container">
+  <div class="left-half">
+    <article><br><br><br><br><br><br><br><br><br><br>
+      <h2><u>CHRONIC KIDNEY DISEASE</u><br><br>
+ <p>To check for ckd click here:<a href={{url_for('predict')}}> predict</p></a>
+
+
+</h2>
+     <p>The term “chronic kidney disease” means lasting damage to the kidneys that can get worse over time. 
+If the damage is very bad, your kidneys may stop working. This is called kidney failure, or end-stage renal disease (ESRD).
+ If your kidneys fail, you will need dialysis or a kidney transplant in order to live.
+</p>
+<h1> CAUSES:</h1>
+Diabetes<br>
+High blood pressure (hypertension)<br>
+Heart disease<br>
+Having a family member with kidney disease<br>
+Being African-American, Hispanic, Native American or Asian<br>
+Being over 60 years old<br>
+<h1>SYMPTOMS:</h1>
+<p><B>You may notice one or more of the following symptoms if your kidneys are beginning to fail:</B>
+Itching,
+Muscle cramps,
+Nausea and vomiting,
+Not feeling hungry,
+Swelling in your feet and ankles,
+Too much urine (pee) or not enough urine,
+Trouble catching your breath
+Trouble sleeping.<br>
+<b>If your kidneys stop working suddenly (acute kidney failure), you may notice one or more of the following symptoms:</b>
+
+Abdominal (belly) pain,
+Back pain,
+Diarrhea,
+Fever,
+Nosebleeds,
+Rash,
+Vomiting.<br>
+<b>Having one or more of any of the symptoms above may be a sign of serious kidney problems. If you notice any of these symptoms, you should contact your doctor right away.</b>
+</p>
+
+    </article>
+  </div>
+</body>
+</html>
